@@ -1,0 +1,19 @@
+[package]
+name = "ltrait-source-stdin"
+version = "0.1.0"
+edition = "2024"
+
+description = "A source of stdin for ltrait"
+
+authors = ["satler <satler@satler.dev>"]
+
+documentation = "https://docs.rs/ltrait-source-stdin/"
+homepage = "https://crates.io/crates/ltrait-source-stdin"
+repository = "https://github.com/ltrait/source-stdin"
+
+license = "MIT"
+
+[dependencies]
+ltrait = "0.1.1"
+
+thiserror = "2.0.12"
